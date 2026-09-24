@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Peyek Enak</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Selamat Datang di Web Peyek Enak</h1>
+        <p>Ini adalah halaman Web Peyek Enak.</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#formdata">Form</a>
+    </nav>
+
+    <!-- Konten Utama -->
+    <main>
+
+        <!-- Profile -->
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>
+                Ini adalah bagian profil dari Web Peyek Enak.
+                Kami menyediakan peyek yang enak dan renyah.
+            </p>
+
+            <img
+                src="Peyek Enak.jpeg"
+                alt="Peyek yang renyah dan siap disajikan"
+            >
+        </section>
+
+        <!-- Form -->
+        <section id="formdata">
+            <h2>Form Data</h2>
+
+            <form action="#" method="post">
+
+                <label for="nama">Masukkan nama anda</label>
+                <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    required
+                >
+
+                <fieldset>
+                    <legend>Jenis Kelamin</legend>
+
+                    <input
+                        type="radio"
+                        name="jenis_kelamin"
+                        id="pria"
+                        value="pria"
+                        required
+                    >
+                    <label for="pria">Pria</label>
+
+                    <input
+                        type="radio"
+                        name="jenis_kelamin"
+                        id="wanita"
+                        value="wanita"
+                    >
+                    <label for="wanita">Wanita</label>
+
+                </fieldset>
+
+                <br>
+
+                <label for="pesan">Pesan</label>
+                <br>
+                <textarea
+                    id="pesan"
+                    name="pesan"
+                    rows="4"
+                    cols="40"
+                    required
+                ></textarea>
+
+                <br><br>
+
+                <button type="submit">Kirim</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Web Peyek Enak</p>
+    </footer>
+
+</body>
+
+</html>
